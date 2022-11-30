@@ -1,0 +1,15 @@
+#include<stdio.h>
+
+double Delta (double a , double b, double c){
+    double D = (b*b)- (4*a*c);
+return D;
+
+}
+int main (){
+double a, b, c, d;
+scanf("%lf %lf %lf", &a, &b, &c);
+ printf("%lf\n", Delta(a,b,c));
+
+  return 0;
+}
+
