@@ -1,0 +1,22 @@
+#include<stdio.h>
+
+pares(int a, int b, int c){
+ int varc = 0;
+    if (a %2 == 0){
+     varc++;
+    }
+    if (b %2 == 0){
+     varc++;
+    }
+    if (c %2 == 0){
+     varc++;
+    }
+return varc;
+}
+
+int main (){
+int a, b, c;
+scanf("%d %d %d", &a, &b, &c);
+ printf("%d numeros sao pares", pares(a, b, c));
+  return 0;
+}
