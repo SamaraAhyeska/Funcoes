@@ -1,21 +1,22 @@
 #include<stdio.h>
 
-double maior (double x , double y){
-    double m;
-    if (x > y){
+float  maior (float x , float y){
+  float m;
+    if ( x > y){
         m = x;
+    } else{
+    m = y;
     }
-        else {
-        m = y;
-        }
 
-return m;
-
+   return m;
 }
+
+
 int main (){
-double x, y, m;
-scanf("%lf %lf", &x, &y);
- printf("%lf\n", maior (x,y));
+float x, y;
+scanf("%f %f", &x , &y);
+float m = maior(x, y);
+ printf("%lf\n", m);
 
   return 0;
 }
