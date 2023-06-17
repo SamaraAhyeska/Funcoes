@@ -1,15 +1,17 @@
 #include<stdio.h>
 
-void cont(int n, int i){
-    i = n;
-    for (int i = 0; i <= n; i++){
-        printf("%d\n",i);
-    }
+void sequencia (double x){
+double i;
+  for (i = 1; i<= x; i++){
+    printf ("%4.lf\n", i);
+  }
 
 }
+
 int main (){
-int n, i;
-scanf("%d", &n);
- cont(n,i);
+double x;
+scanf("%lf" , &x);
+sequencia (x);
+
   return 0;
 }
