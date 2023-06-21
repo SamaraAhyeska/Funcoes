@@ -1,17 +1,21 @@
 #include<stdio.h>
 
 void sequencia (double x){
-double i;
+int i;
   for (i = 1; i<= x; i++){
-    printf ("%4.lf\n", i);
+    printf ("%4.d\n", i);
+
+
   }
 
 }
 
+
 int main (){
-double x;
-scanf("%lf" , &x);
+int x;
+scanf("%d" , &x);
 sequencia (x);
+
 
   return 0;
 }
